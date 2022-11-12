@@ -1,0 +1,82 @@
+.card-top-img{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+.card-top-img img{
+    width: 100%;
+    height: 100%;
+    background: #222;
+    object-fit: cover;
+}
+.card-top-img:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.4;
+  }
+  .Home{
+    width: 50vw;
+      padding: 3rem 2rem;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      /* backdrop-filter: blur(10px); */
+
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      text-align: center;
+      color: #fff;
+  }
+  .Home h1{
+    font-size: 60px;
+  }
+  .Home h2{
+    font-size: 40px;
+  }
+  .Home h3{
+    word-spacing: 8px;
+    margin-top: 20px;
+  }
+  .search-box{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    width: 20rem;
+    height: 5rem;
+    margin: 0 auto;
+    display: inline;
+    padding: 1rem 0 1rem 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    
+
+  }
+  
+  input {
+    border: none;
+    padding: 0.7rem 1.5rem;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+  }
+  ::placeholder {
+    color: #fff;
+  }
+  button {
+    padding: 0.9rem 0.7rem;
+    background-color: red;
+    backdrop-filter: blur(30px);
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }

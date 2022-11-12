@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header-left h1{
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s steps(7) infinite alternate;
+    
+   font-size: 60px;
+    color: red;
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 7ch;
+    }
+}
+
+.header{
+    display: flex;
+align-items: center;
+justify-content: space-between;    
+    width: 90%;
+    z-index: 9999;
+    position: fixed;
+   padding:5px  15px;
+
+    
+  
+        
+   
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-weight: bold;
+    right: 0;
+}
+.header-right-select select{
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+
+}
+.header-right-select option{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: black;
+    border: 2px solid #fff;
+  
+    
+}
+.header-right-button button{
+    padding: 12px ;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}

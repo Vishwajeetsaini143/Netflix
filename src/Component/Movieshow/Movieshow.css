@@ -1,0 +1,76 @@
+.Movieshow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: rgba(0, 0, 0, 0.925);
+    height: 70vh;
+    color: #fff;
+    border-top: 5px solid rgba(255, 255, 255, 0.562);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.575);
+
+
+}
+.Movieshow-right h1{
+    font-size: 50px;
+    line-height: 55px;
+}
+.Movieshow-right h3{
+    font-size: 30px;
+}
+.Movieshow-right{
+    height: 45vh;
+    width: 40%;
+    gap: 20px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+ text-align: center;
+    margin:10px ;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.Movie-sort-card{
+   display: flex;
+   align-items: center;
+   gap: 80px;
+   justify-content: space-evenly;
+   background-color: rgba(0, 0, 0, 0.925);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+position: absolute;
+bottom: 20px;
+border: 3px solid rgba(255, 255, 255, 0.671);
+
+margin-left: 100px;
+height:80px ;
+padding: 10px;
+ 
+}
+.book img{
+    height: 100px;
+    
+    
+}
+.book{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Movieshow-left{
+    position: relative;
+}
+.icon img{
+    height: 50px;
+
+}.book h3{
+    color: blue;
+    margin-top: 5px;
+}
+

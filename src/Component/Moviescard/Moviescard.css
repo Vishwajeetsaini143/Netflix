@@ -1,0 +1,44 @@
+.Moviecard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.925);
+    height: 70vh;
+    color: #fff;
+    border-top: 5px solid rgba(255, 255, 255, 0.562);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.575);
+}
+.Moviecard-left h1{
+font-size: 50px;
+
+}
+.Moviecard-left h2{
+    font-size: 40px;
+}
+.Moviecard-left{
+    height: 40vh;
+    width: 50%;
+    
+    text-align: center;
+    margin:10px ;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.Moviecard-right img{
+    height: 330px;
+}
+.Moviecard-right{
+    position: relative;
+}
+.our-story-card-video{
+    position: absolute;
+    left: 0;
+    height: 180px;
+    margin-top: 69px;
+    margin-left: 59px;
+ 
+    
+}

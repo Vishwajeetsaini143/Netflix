@@ -1,0 +1,29 @@
+.Cartoon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.966);
+    height: 70vh;
+    color: #fff;
+    border-top: 5px solid rgba(255, 255, 255, 0.562);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.575);
+
+}
+.Cartoon-right{
+    height: 40vh;
+    width: 40%;
+    
+    text-align: center;
+    margin:10px ;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.527);
+}
+.Cartoon-right h1{
+    font-size: 50px;
+}
+.Cartoon-right h2{
+    font-size: 30px;
+}
